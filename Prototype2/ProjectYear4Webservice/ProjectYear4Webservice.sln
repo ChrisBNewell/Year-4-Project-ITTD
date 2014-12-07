@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectYear4Webservice", "ProjectYear4Webservice\ProjectYear4Webservice.csproj", "{608864B3-110A-4EF7-8E62-701B1C375B73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{9F402DE2-C570-4BA2-A83B-AB525DAE0559}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{0FE61DBF-E90C-4B56-8D63-8CCB17D07749}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\ProjectYear4Webservice-WAWS-dev.json = PublishScripts\Configurations\ProjectYear4Webservice-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{895795FF-8B8F-4111-A1D4-9CBE44FC63E1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{608864B3-110A-4EF7-8E62-701B1C375B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608864B3-110A-4EF7-8E62-701B1C375B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608864B3-110A-4EF7-8E62-701B1C375B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608864B3-110A-4EF7-8E62-701B1C375B73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FE61DBF-E90C-4B56-8D63-8CCB17D07749} = {9F402DE2-C570-4BA2-A83B-AB525DAE0559}
+	EndGlobalSection
+EndGlobal
