@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Year-4-Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_events">DisplayEvents</string>
+    <string name="display_MobileUsers">Display Users</string>
+    <string name="get_events">Retrieve Events</string>
+    <string name="return_button">Return</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="title_activity_single_event_list_item">SingleEventListItem</string>
+    <string name="title_activity_add_event">AddEvent</string>
+    <string name="edit_button">Edit</string>
+    <string name="delete_button">Delete</string>
+    <string name="title_activity_edit_event">EditEvent</string>
+    <string name="EditItem_eventName_LabelTxt">Edit Event Name</string>
+    <string name="EditItem_eventVenue_LabelTxt">Edit Event Venue</string>
+    <string name="EditItem_eventDate_LabelTxt">Edit Event Date</string>
+    <string name="title_activity_mobile_user_login">MobileUserLoginActivity</string>
+    <string name="title_activity_mobile_user_login_Username">Username</string>
+    <string name="title_activity_mobile_user_login_Password">Password</string>
+    <string name="title_activity_display_mobile_users">DisplayMobileUsersActivity</string>
+    <string name="title_activity_mobile_users_custom_list_adapter">MobileUsersCustomListAdapter</string>
+    <string name="title_activity_display_reservations">DisplayReservationsActivity</string>
+
+</resources>
